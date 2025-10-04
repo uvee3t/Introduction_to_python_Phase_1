@@ -1,0 +1,41 @@
+'''import numpy as np
+
+# Example data — replace with your actual lists
+weight_lb = list(range(200))       # Dummy data: 0 to 199
+height_in = list(range(300))       # Dummy data: 0 to 299
+
+# Convert lists to NumPy arrays
+np_weight_lb = np.array(weight_lb)
+np_height_in = np.array(height_in)
+
+# ✅ Print out the weight at index 50
+print("Weight at index 50:", np_weight_lb[50])
+
+# ✅ Print out sub-array of np_height_in: index 100 up to and including index 110
+print("Heights from index 100 to 110:", np_height_in[100:111])'''
+
+
+
+'''year = [2000, 2050, 2100]
+pop = [6.1, 9.3, 10.8]
+
+
+print(year[-1])   
+print(pop[-1])    
+
+# Import pyplot
+import matplotlib.pyplot as plt
+
+# Create the line plot
+plt.plot(year, pop)
+
+# Display the plot
+plt.show()'''
+fam = [1.73, 1.68, 1.71, 1.89]
+for index, height in enumerate(fam) :
+print("index " + str(index) + ": " + str(height))
+
+
+
+
+
